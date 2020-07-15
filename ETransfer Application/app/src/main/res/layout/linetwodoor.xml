@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linetwodoor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.bjtu.etransfer.etransfer.about">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blueDark">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/f2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/imageView21" />
+
+    <TextView
+        android:text="运营公司"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/imageView21"
+        android:textColor="@color/blueSlight"
+        android:textSize="30dp"
+        android:layout_below="@id/imageView21"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:text="北京地铁运三分公司"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/imageView21"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_below="@id/textView8"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView9" />
+
+    <TextView
+        android:text="屏蔽门号范例"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/imageView21"
+        android:textColor="@color/blueSlight"
+        android:layout_below="@id/textView9"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView10" />
+    <TextView
+        android:text="@string/m2door"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_alignLeft="@id/imageView21"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_below="@id/textView10"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView11" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/m2120"
+        android:layout_below="@id/textView11"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView4" />
+
+    </RelativeLayout>
+</RelativeLayout>

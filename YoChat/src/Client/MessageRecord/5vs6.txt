@@ -1,0 +1,17 @@
+6<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>匹配好友功能必须是匹配异性<Interval Sign></Interval Sign>2020-03-20 18:35:16<Interval Sign></Interval Sign>private
+6<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>可以看到demo3性别为male<Interval Sign></Interval Sign>2020-03-20 18:35:21<Interval Sign></Interval Sign>private
+6<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>demo2性别为female<Interval Sign></Interval Sign>2020-03-20 18:35:27<Interval Sign></Interval Sign>private
+6<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>点击match即加入匹配队列<Interval Sign></Interval Sign>2020-03-20 18:35:35<Interval Sign></Interval Sign>private
+6<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>现在演示查看历史记录功能<Interval Sign></Interval Sign>2020-03-20 18:35:42<Interval Sign></Interval Sign>private
+6<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>如果输入关键字<Interval Sign></Interval Sign>2020-03-20 18:36:20<Interval Sign></Interval Sign>private
+6<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>则查看相关历史记录<Interval Sign></Interval Sign>2020-03-20 18:36:28<Interval Sign></Interval Sign>private
+6<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>否则查看全部历史记录<Interval Sign></Interval Sign>2020-03-20 18:36:33<Interval Sign></Interval Sign>private
+6<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>匹配好友功能必须是匹配异性<Interval Sign></Interval Sign>2020-03-20 18:35:16<Interval Sign></Interval Sign>private
+6<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>可以看到demo3性别为male<Interval Sign></Interval Sign>2020-03-20 18:35:21<Interval Sign></Interval Sign>private
+6<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>demo2性别为female<Interval Sign></Interval Sign>2020-03-20 18:35:27<Interval Sign></Interval Sign>private
+6<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>点击match即加入匹配队列<Interval Sign></Interval Sign>2020-03-20 18:35:35<Interval Sign></Interval Sign>private
+6<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>现在演示查看历史记录功能<Interval Sign></Interval Sign>2020-03-20 18:35:42<Interval Sign></Interval Sign>private
+6<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>如果输入关键字<Interval Sign></Interval Sign>2020-03-20 18:36:20<Interval Sign></Interval Sign>private
+6<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>则查看相关历史记录<Interval Sign></Interval Sign>2020-03-20 18:36:28<Interval Sign></Interval Sign>private
+6<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>否则查看全部历史记录<Interval Sign></Interval Sign>2020-03-20 18:36:33<Interval Sign></Interval Sign>private
+5<Interval Sign></Interval Sign>6<Interval Sign></Interval Sign>演示完毕<Interval Sign></Interval Sign>2020-03-20 18:52:48<Interval Sign></Interval Sign>private

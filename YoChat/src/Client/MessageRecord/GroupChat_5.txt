@@ -1,0 +1,6 @@
+7<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>可以看到，穿建群组之后，群成员会被自动拉入群组<Interval Sign></Interval Sign>2020-03-20 18:49:00<Interval Sign></Interval Sign>private
+7<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>现在演示查看历史记录功能<Interval Sign></Interval Sign>2020-03-20 18:49:10<Interval Sign></Interval Sign>private
+7<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>如果输入keyword，则会根据关键字查询，否则查询全部<Interval Sign></Interval Sign>2020-03-20 18:49:32<Interval Sign></Interval Sign>private
+7<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>现在演示匹配陌生人功能<Interval Sign></Interval Sign>2020-03-20 18:49:44<Interval Sign></Interval Sign>private
+7<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>该功能智能匹配不同性别陌生人<Interval Sign></Interval Sign>2020-03-20 18:49:56<Interval Sign></Interval Sign>private
+7<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>现在已经加入匹配队列<Interval Sign></Interval Sign>2020-03-20 18:50:31<Interval Sign></Interval Sign>private

@@ -1,0 +1,158 @@
+ORG 0000H
+LJMP MAIN
+ORG 1000H
+MAIN:	
+	MOV P0,#0FFH
+	MOV P2,#00H
+	MOV DPTR,#TAB
+	MOV R0,#00H ;车辆进入标志位
+	MOV R1,#50  ;记录车辆数个位
+	MOV R2,#40  ;记录车辆数十位
+	MOV R3,#00  ;记录车辆数百位
+	MOV R4,#00H ;记录个位距离
+	MOV R5,#00H ;记录十位距离
+	MOV R6,#00H ;记录百位距离
+	MOV R7,#00H                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+LOOP:   
+	LCALL DISPLAY
+	JB P1.0,SERV
+	LJMP LOOP
+SERV:
+	MOV TMOD,#11H
+	MOV TL0,#78H   ;记录20cm的时间
+	MOV TH0,#0FBH
+	MOV TL1,#08H   ;记录300cm的时间
+	MOV TH1,#0BCH
+	CLR TF1
+	CLR TF0
+	SETB TR0
+	SETB TR1
+SER:
+	JNB P1.0,PANDUAN
+	ACALL DELAY51US
+	INC R4
+	MOV A,R4
+	CLR C
+	SUBB A,#0AH
+	JNZ M11
+
+	MOV R4,#00H
+	INC R5
+	MOV A,R5
+	CLR C
+	SUBB A,#0AH
+	JNZ M11
+	MOV R5,#00H
+	INC R6
+	MOV A,R6
+	CLR C
+	SUBB A,#0AH
+	JZ MM1
+M11:
+	LJMP SER
+MM1:
+	MOV R4,#09H
+	MOV R5,#09H
+	MOV R6,#09H
+	SJMP M11
+
+PANDUAN:
+	MOV A,TF0
+	JZ LOOP
+	MOV A,TF1
+	JNZ CE
+	SJMP LOOP
+CE:
+	MOV A,R0
+	JZ LOOP	
+CHULI:
+	MOV R0,#00H
+	CLR TR0
+	CLR TR1
+	INC R1
+	MOV A,R1
+	CLR C
+	SUBB A,#0AH
+	JNZ M22
+	MOV R1,#00H
+	INC R2
+	MOV A,R2
+	CLR C
+	SUBB A,#0AH
+	JNZ M22
+	MOV R2,#00H
+	INC R3
+	MOV A,R3
+	CLR C
+	SUBB A,#0AH
+	JZ MM2
+M22:
+	LJMP LOOP
+MM2:
+	MOV R1,#09H
+	MOV R2,#09H
+	MOV R3,#09H
+	SJMP M22		
+DISPLAY:
+	MOV P2,#00H
+	MOV P0,#0FEH     ;距离千位置零
+	MOV A,R7
+	MOVC A,@A+DPTR
+	MOV P2,A
+
+	MOV P2,#00H
+	MOV P0,#0FDH  	 ;距离百位
+	MOV A,R6
+	MOVC A,@A+DPTR
+	MOV P2,A
+
+	MOV P2,#00H
+	MOV P0,#0FBH  	 ;距离十位
+	MOV A,R5
+	MOVC A,@A+DPTR
+	MOV P2,A
+
+	MOV P2,#00H
+	MOV P0,#0F7H  	 ;距离个位
+	MOV A,R4
+	MOVC A,@A+DPTR
+	MOV P2,A
+
+	MOV P2,#00H      ;车辆数千位置零
+	MOV P0,#0EFH
+	MOV A,R7
+	MOVC A,@A+DPTR
+	MOV P2,A
+
+	MOV P2,#00H      ;车辆数百位
+	MOV P0,#0DFH
+	MOV A,R3
+	MOVC A,@A+DPTR
+	MOV P2,A
+
+	MOV P2,#00H      ;车辆数十位
+	MOV P0,#0BFH
+	MOV A,R2
+	MOVC A,@A+DPTR
+	MOV P2,A
+
+	MOV P2,#00H      ;车辆数个位
+	MOV P0,#7FH
+	MOV A,R1
+	MOVC A,@A+DPTR
+	MOV P2,A
+	RET
+
+DELAY51US:			;@11.0592MHz
+	NOP
+	NOP
+	NOP
+	PUSH 30H
+	MOV 30H,#109
+NEXT:
+	DJNZ 30H,NEXT
+	POP 30H
+	RET
+TAB:DB 3FH,06H,5BH,4FH,66H
+    DB 6DH,7DH,07H,7FH,6FH
+END

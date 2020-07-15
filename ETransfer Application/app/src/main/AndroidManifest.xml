@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bjtu.etransfer.etransfer">
+
+    <!-- 允许联网 -->
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:maxSdkVersion="25" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 获取GSM（2g）、WCDMA（联通3g）等网络状态的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 获取wifi网络状态的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 保持CPU 运转，屏幕和键盘灯有可能是关闭的,用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 获取sd卡写的权限，用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 允许读取手机状态 用于创建BmobInstallation -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Welcome"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScrollLayoutActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="易换乘" />
+        <activity
+            android:name=".xianlutu"
+            android:label="线路图" />
+        <activity
+            android:name=".linethirteendoor"
+            android:label="屏蔽门号说明" />
+        <activity
+            android:name=".zhandianchaxun"
+            android:label="站点选择" />
+        <activity
+            android:name=".xianluchaxun"
+            android:label="线路选择" />
+        <activity
+            android:name=".screendoor"
+            android:label="线路选择" />
+        <activity
+            android:name=".showPath"
+            android:label="路径详情" />
+        <activity
+            android:name=".linedetail"
+            android:label="线路信息" />
+        <activity
+            android:name=".stationdetail"
+            android:label="站点信息" />
+        <activity
+            android:name=".about"
+            android:label="关于" />
+        <activity
+            android:name=".BusShowPath"
+            android:label="路径详情" />
+
+        <service
+            android:name=".Location_service"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>

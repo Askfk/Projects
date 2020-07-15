@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.bjtu.etransfer.etransfer.xianluchaxun" >
+
+    <!-- 点击ListView item空白地方没响应的原因：ListView的layout_width设置为“wrap_content”,应该为fill_parent或match_parent -->
+    <ListView
+        android:id="@+id/listviewline"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:divider="@null">
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+5<Interval Sign></Interval Sign>7<Interval Sign></Interval Sign>可以当有不同性别用户加入匹配队列<Interval Sign></Interval Sign>2020-03-20 18:51:08<Interval Sign></Interval Sign>private
+5<Interval Sign></Interval Sign>7<Interval Sign></Interval Sign>即可完成匹配<Interval Sign></Interval Sign>2020-03-20 18:51:13<Interval Sign></Interval Sign>private
+5<Interval Sign></Interval Sign>7<Interval Sign></Interval Sign>这个地方可以实现在线隐身功能<Interval Sign></Interval Sign>2020-03-20 18:51:24<Interval Sign></Interval Sign>private
+5<Interval Sign></Interval Sign>7<Interval Sign></Interval Sign>同时如果好友不在线，名字为灰色，在线时为黑色<Interval Sign></Interval Sign>2020-03-20 18:51:37<Interval Sign></Interval Sign>private
+5<Interval Sign></Interval Sign>7<Interval Sign></Interval Sign>选中时为蓝色<Interval Sign></Interval Sign>2020-03-20 18:51:42<Interval Sign></Interval Sign>private
+5<Interval Sign></Interval Sign>7<Interval Sign></Interval Sign>send键也与enter绑定<Interval Sign></Interval Sign>2020-03-20 18:51:52<Interval Sign></Interval Sign>private
+5<Interval Sign></Interval Sign>7<Interval Sign></Interval Sign>下面演示查看群成员功能<Interval Sign></Interval Sign>2020-03-20 18:52:07<Interval Sign></Interval Sign>private
+7<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>Now we are friends, let's begin out chat!<Interval Sign></Interval Sign>2020-03-20 22:49:13<Interval Sign></Interval Sign>private
+7<Interval Sign></Interval Sign>5<Interval Sign></Interval Sign>Now we are friends, let's begin out chat!<Interval Sign></Interval Sign>2020-03-20 22:49:13<Interval Sign></Interval Sign>private

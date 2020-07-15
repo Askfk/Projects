@@ -1,0 +1,3 @@
+2<Interval Sign></Interval Sign>4<Interval Sign></Interval Sign>This software containss several functions as below shows<Interval Sign></Interval Sign>2020-03-21 18:48:13<Interval Sign></Interval Sign>private
+2<Interval Sign></Interval Sign>4<Interval Sign></Interval Sign>login, logout, signup, change profiles, create groups, add friends, search chat histories, match strangers in different gender<Interval Sign></Interval Sign>2020-03-21 18:49:03<Interval Sign></Interval Sign>private
+2<Interval Sign></Interval Sign>4<Interval Sign></Interval Sign>show group members, change online status to off-line while still keep online, show notifications<Interval Sign></Interval Sign>2020-03-21 18:50:05<Interval Sign></Interval Sign>private
